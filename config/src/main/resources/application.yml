@@ -1,0 +1,40 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name:
+      config
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    initialization-mode: always
+    continue-on-error: true
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: SpringBootDemoHikariCP
+      max-lifetime: 60000
+      connection-timeout: 30000
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jzanetti4/springCloudConfig
+          username: jzanetti
+          password: yhq19950826
+          basedir: /Users/mac/Desktop/21CloudProject/config/basedir
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/,http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5
+
+
