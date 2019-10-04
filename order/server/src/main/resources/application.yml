@@ -25,10 +25,9 @@ spring:
       pool-name: SpringBootDemoHikariCP
       max-lifetime: 60000
       connection-timeout: 30000
-logging:
-  level:
-    com.product: debug
-    com.product.mapper: trace
+
+env:
+  dev
 
 mybatis:
   configuration:
