@@ -78,6 +78,7 @@ public class OrderService {
                 }
             }
         }
+
         List<CartDTO> decreaseStockInputList = orderDTO.getOrderDetailList().stream()
                 .map(e -> new CartDTO(e.getProductId(), e.getProductQuantity()))
                 .collect(Collectors.toList());
