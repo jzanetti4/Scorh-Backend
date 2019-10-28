@@ -18,6 +18,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
@@ -79,5 +80,11 @@ public class OrderController {
         HashMap<String, String> data = new HashMap<>();
         data.put("orderID", orderMaster.getOrderId());
         return ResultUtil.success(data);
+    }
+
+    @PostMapping("/finish")
+    public ResultVO finish(@RequestParam("orderId") String orderId) throws OrderException {
+        log.info("orderId is{},",orderId);
+        return ResultUtil.success(orderService.finish(orderId));
     }
 }

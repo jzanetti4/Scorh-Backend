@@ -1,6 +1,7 @@
 package com.order.exception;
 
 import com.order.enums.OrderResult;
+import com.order.enums.ResultEnum;
 
 public class OrderException extends Exception {
     private Integer code;
@@ -14,4 +15,11 @@ public class OrderException extends Exception {
         super(orderResult.getMsg());
         this.code = orderResult.getCode();
     }
+
+    public OrderException(ResultEnum resultEnum){
+        super(resultEnum.getMessage());
+        this.code=resultEnum.getCode();
+
+    }
+
 }

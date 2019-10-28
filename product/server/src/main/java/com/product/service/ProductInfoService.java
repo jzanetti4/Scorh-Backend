@@ -59,7 +59,6 @@ public class ProductInfoService {
     }
 
 
-
     @Transactional
     public List<ProductInfo> decreaseStockProcess(List<CartDTO> list) {
         List<ProductInfo> productInfoList = new ArrayList<>();

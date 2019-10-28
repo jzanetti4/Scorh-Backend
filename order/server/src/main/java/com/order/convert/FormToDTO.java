@@ -26,12 +26,14 @@ public class FormToDTO {
             throw new OrderException(OrderResult.ERROR);
         }
 
-        OrderDTO orderDTO = OrderDTO.builder()
-                .buyerAddress(orderForm.getAddress())
-                .buyerName(orderForm.getName())
-                .buyerPhone(orderForm.getPhone())
-                .buyerOpenid(orderForm.getOpenid())
-                .orderDetailList(orderDetailList).build();
+        OrderDTO orderDTO = new OrderDTO();
+        orderDTO.setOrderDetailList(orderDetailList);
+        orderDTO.setBuyerAddress(orderForm.getAddress());
+        orderDTO.setBuyerName(orderForm.getName());
+        orderDTO.setBuyerOpenid(orderForm.getOpenid());
+        orderDTO.setBuyerPhone(orderForm.getPhone());
+
+
         return orderDTO;
     }
 }

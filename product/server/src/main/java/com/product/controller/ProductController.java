@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +40,7 @@ public class ProductController {
 
 
     @RequestMapping(value = "/list")
-    public ResultVO<ProductInfo> getProductList() {
+    public ResultVO<ProductInfo> getProductList(HttpServletRequest request) {
 
         //查询商品列表
         List<ProductInfo> productList = productService.getProductListByStatus();
@@ -50,9 +51,7 @@ public class ProductController {
                 .collect(Collectors.toList());
         //从数据库中查询类目
         List<ProductCategory> categoryList = catagoryService.getProductListByCatagoryType(typeList);
-
         List<ProductVO> productVOList = new ArrayList<>();
-
 
         for (ProductCategory productCategory : categoryList) {
             //productVO对应data

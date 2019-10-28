@@ -1,20 +1,18 @@
 package com.order.dto;
 
 import com.order.dataobject.OrderDetail;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NonNull;
+import lombok.*;
 
 import java.util.Date;
 import java.util.List;
 
 
 @Data
-@Builder
+@Getter
+
 public class OrderDTO {
 
     //没有
-
 
     //name
     private String buyerOpenid;

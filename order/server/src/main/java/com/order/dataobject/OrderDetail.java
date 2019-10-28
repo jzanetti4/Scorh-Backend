@@ -16,6 +16,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderDetail {
+
     @Id
     private String detailId;
     private String orderId;
