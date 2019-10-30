@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: order
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+      label: 1.1
+    stream:
+      bindings:
+        inputChannel:
+          group: order
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+      rate: 1
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+feign:
+  hystrix:
+    enabled: true
+logging:
+  level:
+    org.springframework.cloud.openfeign.FeignClient: debug

@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example registerForm template template
+### Example registerForm template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

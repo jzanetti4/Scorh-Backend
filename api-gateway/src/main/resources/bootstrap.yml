@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+      label: 1.1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8763/eureka/
+zuul:
+  routes:
+    product: /zuulProduct/**
+    user: /zuulUser/**
+    post: /zuulPost/**
+  ignored-patterns:
+    - /*/product/decStock
+    - /*/product/listProductsByList
+  sensitive-headers:
+
+ribbon:
+  eureka:
+    enabled: true
+
+logging:
+  level:
+    org.springframework.cloud.openfeign.FeignClient: debug
