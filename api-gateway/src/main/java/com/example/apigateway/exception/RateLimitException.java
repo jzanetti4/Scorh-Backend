@@ -1,7 +1,7 @@
 package com.example.apigateway.exception;
 
 /**
- * Created by 廖师兄
+ * Created by Hangqi Yu
  * 2018-03-11 23:56
  */
 public class RateLimitException extends RuntimeException {

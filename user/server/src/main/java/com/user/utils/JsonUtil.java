@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 
 /**
- * Created by 廖师兄
+ * Created by Hangqi Yu
  * 2018-02-21 10:40
  */
 public class JsonUtil {
@@ -15,7 +15,7 @@ public class JsonUtil {
 	private static ObjectMapper objectMapper = new ObjectMapper();
 
 	/**
-	 * 转换为json字符串
+	 * covert to json string
 	 * @param object
 	 * @return
 	 */
@@ -29,7 +29,7 @@ public class JsonUtil {
 	}
 
 	/**
-	 * json转对象
+	 * json convert to object
 	 * @param string
 	 * @param classType
 	 * @return
@@ -45,7 +45,7 @@ public class JsonUtil {
 
 
 	/**
-	 * json转对象
+	 * json convert to object
 	 * @param string
 	 * @param typeReference
 	 * @return

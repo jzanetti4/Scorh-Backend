@@ -12,13 +12,14 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import java.util.UUID;
+
 
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.POST_TYPE;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.SEND_RESPONSE_FILTER_ORDER;
 
 /**
- * Created by 廖师兄
+ * append the cookie to the header for mobile clients to parse
+ * Created by Hangqi Yu
  * 2018-02-15 16:00
  */
 @Component
@@ -49,7 +50,6 @@ public class addResponseHeaderFilter extends ZuulFilter{
         Cookie mycookie = CookieUtil.get(request, "token");
         HttpServletResponse response = requestContext.getResponse();
         if(mycookie!=null){
-            log.info("redis cookie 对应的value是{},",stringRedisTemplate.opsForValue().get(String.format(mycookie.getValue())));
             response.setHeader("userInfo",stringRedisTemplate.opsForValue().get(String.format(mycookie.getValue())));
         }
         return null;

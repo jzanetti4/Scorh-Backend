@@ -1,8 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2791839a-f6fe-4424-a1d4-25bab2e64348" name="Default Changelist" comment="comment接口完成">
+    <list default="true" id="2791839a-f6fe-4424-a1d4-25bab2e64348" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/constant/CookieConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/constant/CookieConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/constant/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/exception/RateLimitException.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/exception/RateLimitException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/RateLimitFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/RateLimitFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/TokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/addResponseHeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/addResponseHeaderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/KeyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/example/comment/CommentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/example/comment/controller/commentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/example/comment/model/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/java/com/example/comment/repository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/test/java/com/example/comment/CommentApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/test/java/com/example/comment/repository/ArticleRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/basedir" beforeDir="false" afterPath="$PROJECT_DIR$/config/basedir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/main/java/com/example/email/mqReceiver/EmailAddressReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/main/java/com/example/email/mqReceiver/EmailAddressReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/main/java/com/example/email/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/main/java/com/example/email/service/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/main/java/com/example/email/userForm/UserForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/main/java/com/example/email/userForm/UserForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/main/java/com/example/email/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/main/java/com/example/email/utils/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/main/java/com/example/email/utils/KeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/main/java/com/example/email/utils/KeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/src/test/java/com/example/email/EmailApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/email/src/test/java/com/example/email/EmailApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/service/ServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/example/group/dataobject/Scorhgroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/example/group/dataobject/Scorhgroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/main/java/com/example/group/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/main/java/com/example/group/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group/src/test/java/com/example/group/repository/GroupRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/group/src/test/java/com/example/group/repository/GroupRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/controller/EnvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/controller/EnvController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/controller/HystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/controller/HystrixController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/controller/SendMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/controller/SendMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/enums/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/message/MqReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/message/MqReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/message/MyProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/message/MyProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/message/StreamReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/message/StreamReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/order/util/KeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/order/util/KeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/server/src/test/java/com/order/MqSenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/test/java/com/order/MqSenderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/21CloudProject/test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/src/main/java/com/example/post/form/PostForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/java/com/example/post/form/PostForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/src/main/java/com/example/post/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/java/com/example/post/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/src/main/java/com/example/post/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/java/com/example/post/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/src/main/java/com/example/post/util/FormToModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/java/com/example/post/util/FormToModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/server/src/main/java/com/product/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/product/utils/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/server/src/main/java/com/product/utils/KeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/product/utils/KeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/VO/ResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/VO/ResultVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/constant/CookieConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/constant/CookieConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/constant/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/enums/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/enums/RoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/enums/RoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserInfoRepostory.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserInfoRepostory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/AuthInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/AuthInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/RegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/RegisterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/KeyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/ResultVOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/ResultVOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
@@ -85,37 +172,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/repository/GroupRepository.java">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/FormToDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state>
+              <folding>
+                <element signature="e#0#1136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group/src/test/java/com/example/group/repository/GroupRepositoryTest.java">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/FormToUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/dataobject/Scorhgroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,37 +195,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/JsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="483">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/UserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormRepositoryTest.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/CommonController.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1610" />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/MD5Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/ResultVOUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,19 +272,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/server/src/main/java/com/product/service/ProductCatagoryService.java">
+        <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/server/src/main/java/com/product/service/ProductInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -195,13 +295,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>amqp</find>
-      <find>rabbit</find>
-      <find>rabb</find>
-      <find>JsonUtil.fromJson(message</find>
-      <find>convert</find>
-      <find>create</find>
-      <find>save</find>
       <find>test</find>
       <find>Timestamp</find>
       <find>下</find>
@@ -225,7 +318,20 @@
       <find>uuid</find>
       <find>J</find>
       <find>refer</find>
+      <find>AuthInfo</find>
+      <find>廖</find>
+      <find>廖师兄</find>
+      <find>2018-03-04</find>
+      <find>於航奇</find>
+      <find>2017-12</find>
+      <find>created</find>
     </findStrings>
+    <replaceStrings>
+      <replace>於航奇</replace>
+      <replace>2019-10-01</replace>
+      <replace>Hangqi Yu</replace>
+      <replace>2019-10</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -233,28 +339,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/util/FormToDTO.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/MD5Util.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/User.java" />
-        <option value="$PROJECT_DIR$/user/server/src/test/java/com/user/utils/FormToUserTest.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/UserForm.java" />
-        <option value="$PROJECT_DIR$/email/src/main/java/com/example/email/userForm/Animal.java" />
-        <option value="$PROJECT_DIR$/email/src/main/java/com/example/email/mqReceiver/EmailAddressReceiver.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/email/src/main/java/com/example/email/service/MailService.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/LoginForm.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/RegisterForm.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/FormToUser.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/TokenFilter.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/enums/ResultEnum.java" />
-        <option value="$PROJECT_DIR$/comment/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/comment/src/test/java/com/example/comment/CommentApplicationTests.java" />
-        <option value="$PROJECT_DIR$/comment/src/main/java/com/example/comment/model/ChildrenComment.java" />
-        <option value="$PROJECT_DIR$/email/pom.xml" />
-        <option value="$PROJECT_DIR$/comment/src/main/java/com/example/comment/model/Article.java" />
         <option value="$PROJECT_DIR$/comment/src/test/java/com/example/comment/repository/ArticleRepositoryTest.java" />
         <option value="$PROJECT_DIR$/comment/src/main/java/com/example/comment/repository/ArticleRepository.java" />
         <option value="$PROJECT_DIR$/comment/src/main/java/com/example/comment/controller/commentController.java" />
@@ -263,27 +347,49 @@
         <option value="$PROJECT_DIR$/comment/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/post/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/post/src/test/java/com/example/post/PostApplicationTests.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/controller/commentController.java" />
         <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/post/pom.xml" />
-        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/form/PostForm.java" />
         <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/PostApplication.java" />
-        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/util/FormToModel.java" />
         <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/util/SnowflakeGenerator.java" />
-        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/repository/ArticleRepository.java" />
-        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/model/Article.java" />
         <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/AuthFilter.java" />
         <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/UserInfo.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/AuthInfo.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/addResponseHeaderFilter.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/post/src/test/java/com/example/post/repository/ArticleRepositoryTest.java" />
         <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/controller/PostController.java" />
-        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java" />
         <option value="$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/AuthInfo.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/group/src/main/java/com/example/group/repository/GroupRepository.java" />
+        <option value="$PROJECT_DIR$/group/src/test/java/com/example/group/repository/GroupRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/group/src/test/java/com/example/group/controller/GroupController.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java" />
+        <option value="$PROJECT_DIR$/email/src/test/java/com/example/email/EmailApplicationTests.java" />
+        <option value="$PROJECT_DIR$/email/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/email/src/main/java/com/example/email/service/MailService.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/constant/CookieConstant.java" />
+        <option value="$PROJECT_DIR$/email/src/main/java/com/example/email/mqReceiver/EmailAddressReceiver.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/RateLimitFilter.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/addResponseHeaderFilter.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/eureka/src/main/java/com/example/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/group/src/main/java/com/example/group/dataobject/Scorhgroup.java" />
+        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/model/Article.java" />
+        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/form/PostForm.java" />
+        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/repository/ArticleRepository.java" />
+        <option value="$PROJECT_DIR$/post/src/main/java/com/example/post/util/FormToModel.java" />
         <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/CommonController.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/User.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -298,10 +404,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="380" />
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -311,6 +415,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,237 +427,24 @@
             <path>
               <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="reponsitory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="userForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="21CloudProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="21CloudProject" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -576,6 +469,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.13477087" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
@@ -594,15 +488,16 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.group" />
       <recent name="com.user" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.group.controller" />
       <recent name="com.example.comment.model" />
       <recent name="com.example.comment.repository" />
       <recent name="com.user.utils" />
       <recent name="com.example.group.repository" />
-      <recent name="com.example.group.dataobject" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/post/src/main/java/com/example/post" />
@@ -620,11 +515,7 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 27 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-        <path>
-          <item name="Found 27 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="post" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 30 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
       </expand>
       <select />
@@ -642,50 +533,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserFormRepositoryTest.findAll">
-    <configuration name="ArticleRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="post" />
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="EmailApplicationTests.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="email" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.post.repository.*" />
+          <option name="PATTERN" value="com.example.email.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.post.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.post.repository.ArticleRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.email" />
+      <option name="MAIN_CLASS_NAME" value="com.example.email.EmailApplicationTests" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailApplicationTests.testSendHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="email" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.email" />
+      <option name="MAIN_CLASS_NAME" value="com.example.email.EmailApplicationTests" />
+      <option name="METHOD_NAME" value="testSendHtml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="group" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.group.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.group.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.group.repository.GroupRepositoryTest" />
       <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArticleRepositoryTest.findByPostId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="post" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.post.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.post.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.post.repository.ArticleRepositoryTest" />
-      <option name="METHOD_NAME" value="findByPostId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArticleRepositoryTest.save (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="post" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.post.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.post.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.post.repository.ArticleRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -810,8 +701,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArticleRepositoryTest.save (1)" />
-      <item itemvalue="JUnit.ArticleRepositoryTest.findAll" />
+      <item itemvalue="JUnit.UserFormRepositoryTest.findAll" />
+      <item itemvalue="JUnit.GroupRepositoryTest.findAll" />
+      <item itemvalue="JUnit.EmailApplicationTests.testSend" />
+      <item itemvalue="JUnit.EmailApplicationTests.testSendHtml" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.config (1)" />
       <item itemvalue="Spring Boot.OrderApplication1" />
@@ -822,17 +715,15 @@
       <item itemvalue="Spring Boot.GroupApplication" />
       <item itemvalue="Spring Boot.CommentApplication" />
       <item itemvalue="Spring Boot.PostApplication" />
-      <item itemvalue="JUnit.ArticleRepositoryTest.findByPostId" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="JUnit.UserFormRepositoryTest.findAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserFormRepositoryTest.findAll" />
         <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="JUnit.ArticleRepositoryTest.findByPostId" />
-        <item itemvalue="JUnit.ArticleRepositoryTest.save (1)" />
-        <item itemvalue="JUnit.ArticleRepositoryTest.findAll" />
+        <item itemvalue="JUnit.EmailApplicationTests.testSendHtml" />
+        <item itemvalue="JUnit.EmailApplicationTests.testSend" />
+        <item itemvalue="JUnit.GroupRepositoryTest.findAll" />
+        <item itemvalue="JUnit.UserFormRepositoryTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -878,7 +769,10 @@
       <workItem from="1571971393388" duration="2269000" />
       <workItem from="1572054955756" duration="14248000" />
       <workItem from="1572133375736" duration="17510000" />
-      <workItem from="1572277640492" duration="22321000" />
+      <workItem from="1572277640492" duration="40545000" />
+      <workItem from="1572580353402" duration="451000" />
+      <workItem from="1572580985050" duration="970000" />
+      <workItem from="1572591107137" duration="3101000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud自动更新">
       <created>1570814800581</created>
@@ -908,43 +802,50 @@
       <option name="project" value="LOCAL" />
       <updated>1572284349919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done：post服务完成&#10;toDo：显示全部用户服务">
+      <created>1572422888585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572422888585</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArticleRepositoryTest_findByContentLike - 2019.10.29 at 02h 27m 51s.xml">
-      <configuration name="ArticleRepositoryTest.findByContentLike" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 02m 18s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_findByType - 2019.10.29 at 02h 28m 54s.xml">
-      <configuration name="ArticleRepositoryTest.findByType" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 04m 52s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_findByUsername - 2019.10.29 at 02h 29m 28s.xml">
-      <configuration name="ArticleRepositoryTest.findByUsername" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 36m 08s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_findAll - 2019.10.29 at 02h 35m 49s.xml">
-      <configuration name="ArticleRepositoryTest.findAll" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 41m 19s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_findAll - 2019.10.29 at 02h 36m 07s.xml">
-      <configuration name="ArticleRepositoryTest.findAll" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 42m 36s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_save_(1) - 2019.10.29 at 03h 54m 32s.xml">
-      <configuration name="ArticleRepositoryTest.save (1)" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 45m 34s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_save_(1) - 2019.10.29 at 04h 05m 15s.xml">
-      <configuration name="ArticleRepositoryTest.save (1)" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 46m 31s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArticleRepositoryTest_findByPostId - 2019.10.29 at 04h 17m 48s.xml">
-      <configuration name="ArticleRepositoryTest.findByPostId" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSend - 2019.10.31 at 01h 47m 10s.xml">
+      <configuration name="EmailApplicationTests.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFormRepositoryTest_findAll - 2019.10.30 at 18h 53m 23s.xml">
-      <configuration name="UserFormRepositoryTest.findAll" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSendHtml - 2019.10.31 at 01h 48m 47s.xml">
+      <configuration name="EmailApplicationTests.testSendHtml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFormRepositoryTest_findAll - 2019.10.30 at 18h 54m 01s.xml">
-      <configuration name="UserFormRepositoryTest.findAll" configurationId="JUnit" />
+    <history-entry file="EmailApplicationTests_testSendHtml - 2019.10.31 at 01h 50m 21s.xml">
+      <configuration name="EmailApplicationTests.testSendHtml" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216770000" />
+    <option name="totallyTimeSpent" value="239516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,10 +858,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7234469" visible="true" weight="0.26466382" />
-      <window_info id="Structure" order="1" sideWeight="0.2765531" side_tool="true" visible="true" weight="0.26466382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7180723" visible="true" weight="0.26466382" />
+      <window_info id="Structure" order="1" sideWeight="0.2819277" side_tool="true" weight="0.26466382" />
       <window_info id="Learn" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -974,14 +874,14 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49785408" weight="0.32771084" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48855507" weight="0.40843374" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4985694" visible="true" weight="0.3987952" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4985694" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49928468" weight="0.32771084" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="8" sideWeight="0.49785408" weight="0.32891566" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49928468" weight="0.32771084" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49284694" weight="0.32289156" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49284694" visible="true" weight="0.32289156" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5114449" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="CheckStyle" order="14" sideWeight="0.49928468" weight="0.32891566" />
@@ -1002,11 +902,11 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.4979592" weight="0.15522175" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="RestServices" order="6" visible="true" weight="0.21816881" />
+      <window_info anchor="right" id="RestServices" order="6" weight="0.21816881" />
       <window_info anchor="right" id="Jenkins" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="10" weight="0.24177396" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="10" visible="true" weight="0.24177396" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="13" />
@@ -1036,7 +936,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud自动更新" />
     <MESSAGE value="comment接口完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment接口完成" />
+    <MESSAGE value="done：post服务完成&#10;toDo：显示全部用户服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="done：post服务完成&#10;toDo：显示全部用户服务" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1062,211 +963,284 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/comment/src/main/java/com/example/comment/CommentApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/server/src/main/java/com/product/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/server/src/main/java/com/product/controller/ServerContoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/order/message/ProductInfoReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/order/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/test/java/com/example/post/PostApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-core/4.6.1/hutool-core-4.6.1.jar!/cn/hutool/core/lang/Snowflake.class">
+    <entry file="file://$PROJECT_DIR$/email/src/main/java/com/example/email/EmailApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/GroupApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/UUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/util/SnowflakeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/util/FormToModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/PostApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/exception/RateLimitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/addResponseHeaderFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/form/PostForm.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/constant/RedisConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="296">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#1521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/RateLimitFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/constant/CookieConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/RateLimitFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
           <folding>
-            <element signature="e#0#2190#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/ResultVOUtil.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/utils/KeyUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/example/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/service/ServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/dataobject/Scorhgroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/controller/GroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/form/PostForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/model/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/repository/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/util/FormToModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/VO/ResultVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1275,39 +1249,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="-72">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="640" column="12" selection-start-line="640" selection-start-column="12" selection-end-line="640" selection-end-column="12" />
-          <folding>
-            <element signature="e#26131#26132#0" expanded="true" />
-            <element signature="e#26170#26171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.0.M3/spring-cloud-netflix-zuul-2.2.0.M3.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/RegisterForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1318,10 +1264,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/AuthInfo.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/enums/RoleEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserInfoRepostory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/AuthInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1335,161 +1322,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/AuthFilter.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/userForm/RegisterForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/filter/addResponseHeaderFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/dataobject/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/model/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/test/java/com/example/post/repository/ArticleRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/repository/ArticleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/src/main/java/com/example/post/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/dataobject/Scorhgroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group/src/main/java/com/example/group/repository/GroupRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group/src/test/java/com/example/group/repository/GroupRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/reponsitory/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/test/java/com/user/UserFormRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="165">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/FormToDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+        <state>
+          <folding>
+            <element signature="e#0#1136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/FormToUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/server/src/main/java/com/product/service/ProductCatagoryService.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/KeyUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/server/src/main/java/com/product/service/ProductInfoService.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="483">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/controller/CommonController.java">
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/ResultVOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/utils/UUIDGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/server/src/main/java/com/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1610" />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

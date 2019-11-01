@@ -3,8 +3,8 @@ package com.order.enums;
 import lombok.Getter;
 
 /**
- * Created by 廖师兄
- * 2017-12-10 17:32
+ * Created by Hangqi Yu
+ * 2019-10-10 17:32
  */
 @Getter
 public enum ResultEnum  {

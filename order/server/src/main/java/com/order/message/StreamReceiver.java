@@ -7,7 +7,7 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by 廖师兄
+ * Created by Hangqi Yu
  * 2018-02-13 18:17
  */
 @Component

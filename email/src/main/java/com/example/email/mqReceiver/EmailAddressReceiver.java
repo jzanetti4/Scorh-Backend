@@ -15,8 +15,13 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.core.type.TypeReference;
 
+import javax.mail.MessagingException;
 import java.util.UUID;
 
+
+/**
+ * created by Hangqi Yu
+ */
 
 @Slf4j
 @Component
@@ -30,18 +35,16 @@ public class EmailAddressReceiver {
             value = @Queue("emailService"),
             exchange = @Exchange("ScorhMessage")
     ))
-    public void processComputer(String row) {
+    public void processComputer(String row) throws MessagingException {
         String message= (String) JsonUtil.fromJson(row, new TypeReference<String>(){});
 //        List<ProductInfo> productInfoOutputList = (List<ProductInfo>)JsonUtil.fromJson(message,
 //                new TypeReference<List<ProductInfo>>() {});
         log.info("从email接受消息，邮箱地址: {}",message);
-
         String code = UUID.randomUUID().toString();
-
         System.out.println(message);
 //        System.out.println("yhq19951005@gmail.com".equals(message));
-        mailService.send(message,code);
-
+//        mailService.send(message,code);
+        mailService.sendHtml(message,code);
         stringRedisTemplate.opsForValue().set(code,message);
 
 

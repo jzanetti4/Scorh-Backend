@@ -2,13 +2,16 @@ package com.user;
 
 import com.user.dataobject.User;
 import com.user.reponsitory.UserRepository;
+import com.user.userForm.AuthInfo;
 import org.junit.Test;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertTrue;
 
@@ -47,10 +50,22 @@ public class UserFormRepositoryTest extends UserFormApplicationTests {
 
     @Test
     public void findAll(){
-        List<User> result=userRepository.findAll();
+//        List<User> result=userRepository.findAll();
+
+        List<AuthInfo> result=userRepository.findAll()
+                .stream()
+                .map(e -> {
+                    AuthInfo authInfo = new AuthInfo();
+                    BeanUtils.copyProperties(e, authInfo);
+                    return authInfo;
+                })
+                .collect(Collectors.toList());
+
         System.out.println(result);
 
     }
+
+
 
 
 }

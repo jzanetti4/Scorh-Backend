@@ -6,6 +6,16 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
+
+
+/**
+ * class  mapped to the User in mysql
+ * @description: User entity
+ * @author: Hangqi Yu
+ * @date: Created in 2019-10-10 16:21
+ * @version: V1.0
+ * @modified: Hangqi Yu
+ */
 @Data
 @Entity
 public class User {

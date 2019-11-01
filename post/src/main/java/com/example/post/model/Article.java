@@ -11,24 +11,21 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * <p>
- * 文章实体类
- * </p>
- *
- * @package: com.xkcoding.mongodb.model
- * @description: 文章实体类
- * @author: yangkai.shen
- * @date: Created in 2018-12-28 16:21
- * @copyright: Copyright (c) 2018
+ * class  mapped to the post in mongoDB
+ * @description: Post entity
+ * @author: Hangqi Yu
+ * @date: Created in 2019-10-10 16:21
  * @version: V1.0
- * @modified: yangkai.shen
+ * @modified: Hangqi Yu
  */
+
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Article {
     /**
-     * 文章id
+     * post id
      */
     @Id
     private String postId;
@@ -40,29 +37,23 @@ public class Article {
 
     private String username;
     /**
-     * 文章类型
+     * post type
      */
     private String type;
     /**
-     * 文章内容
+     * post content
      */
     private String content;
-    /**
-     * 创建时间
-     */
+
     private Date createTime;
-    /**
-     * 更新时间
-     */
+
     private Date updateTime;
-    /**
-     * 点赞数量
-     */
+
     private int count_thumbUp;
     private int count_comment;
 
     /**
-     * 子评论
+     * children comment
      */
     private List<Article> childrenCommentList;
 

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 
 /**
- * Created by 廖师兄
+ * Created by Hangqi Yu
  * 2018-02-13 18:20
  */
 @RestController

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 接收mq消息
- * Created by 廖师兄
+ * Created by Hangqi Yu
  * 2018-02-04 22:02
  */
 @Slf4j

@@ -5,29 +5,21 @@ package com.example.post.repository;
 
 import com.example.post.model.Article;
 import org.springframework.data.mongodb.repository.MongoRepository;
-
 import java.util.List;
 
+
 /**
- * <p>
- * 文章 Dao
- * </p>
- *
- * @package: com.xkcoding.mongodb.repository
- * @description: 文章 Dao
- * @author: yangkai.shen
- * @date: Created in 2018-12-28 16:30
- * @copyright: Copyright (c) 2018
+ * the operations provided by MongoRepository
+ * @description: MongoRepository
+ * @author: Hangqi Yu
+ * @date: Created in 2019-10-10 16:21
  * @version: V1.0
- * @modified: yangkai.shen
+ * @modified: Hangqi Yu
  */
+
 public interface ArticleRepository extends MongoRepository<Article, String> {
-    /**
-     * 根据标题模糊查询
-     *
-     * @param title 标题
-     * @return 满足条件的文章列表
-     */
+
+
     List<Article> findByContentLike(String Content);
 
     @Override

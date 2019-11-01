@@ -2,6 +2,15 @@ package com.user.utils;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
+
+/**
+ * provide util for encription on user password
+ * @description: MD5 encryption
+ * @author: Hangqi Yu
+ * @date: Created in 2019-10-10 16:21
+ * @version: V1.0
+ * @modified: Hangqi Yu
+ */
 public class MD5Util {
 	
 	public static String md5(String src) {

@@ -13,7 +13,14 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
 
-
+/**
+ * provide method to covert the form to article class
+ * @description: FormToModel
+ * @author: Hangqi Yu
+ * @date: Created in 2019-10-10 16:21
+ * @version: V1.0
+ * @modified: Hangqi Yu
+ */
 public class FormToModel {
 
 

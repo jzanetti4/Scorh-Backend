@@ -20,6 +20,7 @@ zuul:
     product: /zuulProduct/**
     user: /zuulUser/**
     post: /zuulPost/**
+    group: /zuulGroup/**
   ignored-patterns:
     - /*/product/decStock
     - /*/product/listProductsByList

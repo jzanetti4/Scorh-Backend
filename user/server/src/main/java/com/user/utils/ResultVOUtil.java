@@ -5,8 +5,8 @@ import VO.ResultVO;
 import com.user.enums.ResultEnum;
 
 /**
- * Created by 廖师兄
- * 2017-12-10 18:03
+ * Created by Hangqi Yu
+ * 2019-10-10 18:03
  */
 public class ResultVOUtil {
 

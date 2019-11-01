@@ -20,6 +20,13 @@ import javax.servlet.http.HttpServletRequest;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_DECORATION_FILTER_ORDER;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
 
+
+/**
+ * AuthFilter to give access to user who have the token
+ * Created by Hangqi Yu
+ * 2019-10-10 16:57
+ */
+
 @Slf4j
 @Component
 public class AuthFilter extends ZuulFilter {
@@ -47,13 +54,6 @@ public class AuthFilter extends ZuulFilter {
         RequestContext requestContext = RequestContext.getCurrentContext();
         HttpServletRequest request = requestContext.getRequest();
         String requestURL = request.getRequestURI();
-        log.info("request is {}", request.getRequestURL());
-        Cookie mycookie = CookieUtil.get(request, "token");
-        if(mycookie!=null){
-            log.info("mycookie is {}",mycookie);
-            log.info("redis cookie 的key是{}",mycookie.getValue());
-            log.info("redis cookie 对应的value是{},",stringRedisTemplate.opsForValue().get(String.format(mycookie.getValue())));
-        }
         if (!"/zuulUser/login/".equals(requestURL) & !"/zuulUser/register/initReg".equals(requestURL) & !"/zuulUser/register/regActive".equals(requestURL)) {
             Cookie cookie = CookieUtil.get(request, "token");
             if (cookie == null || StringUtils.isEmpty(cookie.getValue()) || StringUtils.isEmpty(stringRedisTemplate.opsForValue().get(cookie.getValue()))) {

@@ -7,8 +7,8 @@ import com.user.dataobject.UserInfo;
 import java.util.List;
 
 /**
- * Created by 廖师兄
- * 2018-03-04 21:44
+ * Created by Hangqi Yu
+ * 2019-10-01 21:44
  */
 public interface UserService {
 

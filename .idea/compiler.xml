@@ -13,7 +13,6 @@
         <module name="email" />
         <module name="post" />
         <module name="product-client" />
-        <module name="comment" />
         <module name="order-server" />
         <module name="user-server" />
         <module name="group" />

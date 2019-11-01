@@ -3,8 +3,8 @@ package com.example.email.userForm;
 import lombok.Data;
 
 /**
- * Created by 廖师兄
- * 2018-03-04 21:41
+ * Created by Hangqi Yu
+ * 2019-10-01 21:41
  */
 @Data
 public class UserForm {

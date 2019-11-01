@@ -3,8 +3,8 @@ package com.order.util;
 import java.util.Random;
 
 /**
- * Created by 廖师兄
- * 2017-12-10 16:57
+ * Created by Hangqi Yu
+ * 2019-10-10 16:57
  */
 public class KeyUtil {
 

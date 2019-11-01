@@ -6,6 +6,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
+/**
+ * this is the orm class for corresponding to the table Scorhgroup in mysql
+ * Created by Hangqi Yu
+ * 2019-10-10 16:57
+ */
 @Entity
 @Data
 public class Scorhgroup {

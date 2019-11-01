@@ -9,9 +9,15 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 
+
+
+/**
+ * Zuul service for Auth, limit on rate, set responseHeader
+ * Created by Hangqi Yu
+ * 2019-10-10 16:57
+ */
 @SpringBootApplication
 @EnableZuulProxy
-
 public class ApiGatewayApplication {
 
     @HystrixCommand(commandProperties = {
