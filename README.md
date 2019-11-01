@@ -1,7 +1,9 @@
 This is the Scorh App backend folder created by Hangqi Yu
 
-Author: Hangqi Yu
+Author:
 ---
+  Hangqi Yu
+
 Get Started
 --
 1. go to eureka folder
